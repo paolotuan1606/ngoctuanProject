@@ -1,0 +1,21 @@
+.admin {
+  margin-top: 90px;
+  .controller {
+    li {
+      border: none;
+    }
+  }
+  .usercontrol {
+    .btn-new {
+      margin-left: 440px;
+      margin-top: 40px;
+      width: 100px;
+    }
+    .form-inline {
+      margin-top: 40px;
+    }
+    .mr-sm-2 {
+      width: 400px;
+    }
+  }
+}

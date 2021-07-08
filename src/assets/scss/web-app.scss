@@ -1,0 +1,32 @@
+.btn__APP {
+  background-color: #fb4226;
+  border-radius: 8px;
+  border: #fb4226;
+  font-size: 20px;
+}
+.app__Phim {
+  padding: 120px 0 80px 0;
+  background-image: url("../img/backapp.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .appphim__right {
+    position: relative;
+    .phone__Img {
+      padding: 0 25%;
+      overflow: visible;
+    }
+    .slick__list {
+      position: absolute;
+      top: 19px;
+      left: 0;
+      width: 100%;
+      padding: 0 27%;
+      img {
+        border-radius: 20px;
+        overflow: hidden;
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+.booking-ticket {
+  margin-top: 70px;
+  .text-bold {
+    font-weight: bold;
+  }
+  .room {
+    .btn-seat {
+      margin: 30px;
+      .btn {
+        margin: 0 6px;
+        font-size: 10px;
+        margin-bottom: 5px;
+      }
+      // .Thuong {
+      //   border: forestgreen;
+      // }
+      // .Vip {
+      //   border: red;
+      // }
+      .OverNum {
+        padding: 6px 8.3px;
+      }
+    }
+  }
+  .ticket {
+    img {
+      width: 200px;
+      height: 230px;
+      margin-left: 100px;
+    }
+    button {
+      margin-left: 250px;
+    }
+  }
+}

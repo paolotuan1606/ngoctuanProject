@@ -1,0 +1,205 @@
+.carousel {
+  margin-top: 60px;
+  height: 500px;
+  position: relative;
+  .movieShow {
+    position: relative;
+    img {
+      height: 550px;
+      width: 100%;
+    }
+  }
+  .btnPlay {
+    position: absolute;
+    top: 45%;
+    transform: translateX(800%);
+    opacity: 0;
+    transition: all 0.5s;
+  }
+  &:hover {
+    .btnPlay {
+      opacity: 1;
+    }
+  }
+  .slick-dots {
+    bottom: 50px;
+    li {
+      button:before {
+        font-size: 15px;
+        color: white;
+        opacity: 1;
+      }
+    }
+    .slick-active {
+      button:before {
+        color: #820713fc;
+      }
+    }
+  }
+}
+
+@include responsive_320 {
+  .carousel {
+    margin-top: 60px;
+    height: 500px;
+    position: relative;
+    .movieShow {
+      position: relative;
+      img {
+        height: 550px;
+        width: 100%;
+      }
+    }
+    .btnPlay {
+      position: absolute;
+      top: 1;
+      left: 1;
+      opacity: 0;
+      transition: all 0.5s;
+      display: none;
+    }
+    &:hover {
+      .btnPlay {
+        opacity: 1;
+      }
+    }
+    .slick-dots {
+      bottom: 50px;
+      li {
+        button:before {
+          font-size: 15px;
+          color: white;
+          opacity: 1;
+        }
+      }
+      .slick-active {
+        button:before {
+          color: #820713fc;
+        }
+      }
+    }
+  }
+}
+@include responsive_375 {
+  .carousel {
+    margin-top: 60px;
+    height: 500px;
+    position: relative;
+    .movieShow {
+      position: relative;
+      img {
+        height: 550px;
+        width: 100%;
+      }
+    }
+    .btnPlay {
+      position: absolute;
+      top: 45%;
+      transform: translateX(185%);
+      opacity: 0;
+      transition: all 0.5s;
+    }
+    &:hover {
+      .btnPlay {
+        opacity: 1;
+      }
+    }
+    .slick-dots {
+      bottom: 50px;
+      li {
+        button:before {
+          font-size: 15px;
+          color: white;
+          opacity: 1;
+        }
+      }
+      .slick-active {
+        button:before {
+          color: #820713fc;
+        }
+      }
+    }
+  }
+}
+@include responsive_425 {
+  .carousel {
+    margin-top: 60px;
+    height: 500px;
+    position: relative;
+    .movieShow {
+      position: relative;
+      img {
+        height: 550px;
+        width: 100%;
+      }
+    }
+    .btnPlay {
+      position: absolute;
+      top: 45%;
+      transform: translateX(280%);
+      opacity: 0;
+      transition: all 0.5s;
+    }
+    &:hover {
+      .btnPlay {
+        opacity: 1;
+      }
+    }
+    .slick-dots {
+      bottom: 50px;
+      li {
+        button:before {
+          font-size: 15px;
+          color: white;
+          opacity: 1;
+        }
+      }
+      .slick-active {
+        button:before {
+          color: #820713fc;
+        }
+      }
+    }
+  }
+}
+@include responsive_768 {
+  .carousel {
+    margin-top: 60px;
+    height: 500px;
+    position: relative;
+    .movieShow {
+      position: relative;
+      img {
+        height: 550px;
+        width: 100%;
+      }
+    }
+    .btnPlay {
+      position: absolute;
+      top: 45%;
+      transform: translateX(420%);
+      opacity: 0;
+      transition: all 0.5s;
+    }
+    &:hover {
+      .btnPlay {
+        opacity: 1;
+      }
+    }
+    .slick-dots {
+      bottom: 50px;
+      li {
+        button:before {
+          font-size: 15px;
+          color: white;
+          opacity: 1;
+        }
+      }
+      .slick-active {
+        button:before {
+          color: #820713fc;
+        }
+      }
+    }
+  }
+}
